@@ -1,0 +1,79 @@
+.timeline-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 10%;
+}
+
+.timeline-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-list h3 {
+  font-size: xx-large;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  background-color: hsl(220, 16%, 96%);
+}
+
+.mission-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+.container-column {
+  padding: 2% 3% 3% 3%;
+}
+
+.white-section {
+  background-color: hsl(0, 0%, 98%);
+}
+
+.history-container {
+  flex-grow: 1;
+}
+
+.timeline-container {
+  flex-grow: 2;
+}
+
+.flex-container {
+  min-width: 30%;
+  max-width: 35%;
+}
+
+.team-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5%;
+}
+
+.option {
+  text-align: center;
+}
+
+.ic-onl {
+  height: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .about-container {
+    flex-direction: column;
+  }
+  .timeline-list {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .mission-container {
+    flex-direction: column;
+  }
+}

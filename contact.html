@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <title>Frontend Mentor | Easybank landing page</title>
+  </head>
+  <body>
+    <header class="navbar">
+      <img alt="logo" src="images\logo.svg" />
+      <nav id="center-row" class="page-list">
+        <li class="nav-item"><a href="/index.html">Home</a></li>
+        <li class="nav-item"><a href="/about.html">About</a></li>
+        <li class="nav-item"><a href="/contact.html">Contact</a></li>
+        <li class="nav-item"><a>Blog</a></li>
+        <li class="nav-item"><a>Careers</a></li>
+      </nav>
+      <button id="gradient-btn" style="margin: 0">Request Invite</button>
+    </header>
+    <main>
+      <section class="container-first" id="bordered">
+        <section id="center-row" class="contact-list">
+          <article class="option contact-item">
+            <img alt="location-icon" src="images\icon-location.png" />
+            <h3>Address</h3>
+            <p>123 Main Street Cityville, State 12345 Country</p>
+          </article>
+          <article class="option contact-item">
+            <img alt="telephone-icon" src="images\icon-phone.png" />
+            <h3>Telephone</h3>
+            <p>Main Office: (123) 456-7890 Customer Support: (987) 654-3210</p>
+          </article>
+          <article class="option contact-item">
+            <img alt="mail-icon" src="images\icon-mail.png" />
+            <h3>Email</h3>
+            <p>
+              General Inquiries: info@example.com Customer Support:
+              support@example.com Sales: sales@example.com
+            </p>
+          </article>
+        </section>
+      </section>
+      <section class="container-column">
+        <div id="center-row">
+          <div class="title-container" id="why-title">
+            <h1>Write us a message</h1>
+            <p>
+              ¿Tienes alguna pregunta, comentario o sugerencia? Estamos aquí
+              para ayudarte. Por favor, completa el formulario de contacto a
+              continuación y nos pondremos en contacto contigo lo antes posible.
+            </p>
+          </div>
+          <form class="message-form">
+            <div class="form-group">
+              <label for="name">Full name</label>
+              <input
+                id="name"
+                type="name"
+                name="name"
+                placeholder="Name Last Name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="example@mail.com"
+                disabled
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Write your message"
+              ></textarea>
+            </div>
+            <input id="gradient-btn" type="submit" value="Send" />
+          </form>
+        </div>
+      </section>
+      <footer>
+        <div id="left-row">
+          <div id="column" style="justify-content: space-between">
+            <img alt="logo" src="images\logo_white.svg" />
+            <div id="row" style="gap: 10px">
+              <a href="https://www.facebook.com/"
+                ><img alt="ic-fb" src="images\icon-facebook.svg"
+              /></a>
+              <a href="https://www.youtube.com/"
+                ><img alt="ic-yt" src="images\icon-youtube.svg"
+              /></a>
+              <a href="https://twitter.com/?lang=es"
+                ><img alt="ic-twt" src="images\icon-twitter.svg"
+              /></a>
+              <a href="https://www.pinterest.com/"
+                ><img alt="ic-pnt" src="images\icon-pinterest.svg"
+              /></a>
+              <a href="https://www.instagram.com/"
+                ><img alt="ic-ins" src="images\icon-instagram.svg"
+              /></a>
+            </div>
+          </div>
+          <div id="column">
+            <a href="/about.html">About Us</a>
+            <a href="/contact.html">Contact</a>
+            <a>Blog</a>
+          </div>
+          <div id="column">
+            <a>Careers</a>
+            <a>Support</a>
+            <a>Privacy Policy</a>
+          </div>
+        </div>
+        <div id="column">
+          <button id="gradient-btn" style="align-self: flex-end">
+            Request Invite
+          </button>
+          <p style="font-size: x-small">© Easybank. All Rights Reserved</p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
